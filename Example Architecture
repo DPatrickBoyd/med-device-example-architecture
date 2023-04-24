@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T04:19:39.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="I4F9c80OCA3deDoG92r5" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T04:59:51.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="udjZyh4cETB7f7Yw1ozS" version="21.2.1" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2060" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2047" value="Windows Azure Management Portal" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=36;fontColor=#ffffff;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="2047" value="Example Med Device Architecture" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=36;fontColor=#ffffff;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="50" width="1060" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2091" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.083;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2086" target="Lu6FpUBILvT6wbpDoRC8-2090">
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2091" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2086" target="Lu6FpUBILvT6wbpDoRC8-2090">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lu6FpUBILvT6wbpDoRC8-2086" value="Mobile App" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1">
@@ -24,39 +24,141 @@
         <mxCell id="Lu6FpUBILvT6wbpDoRC8-2088" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.bluetooth;pointerEvents=1" vertex="1" parent="1">
           <mxGeometry x="95" y="330" width="15" height="28.799999999999997" as="geometry" />
         </mxCell>
-        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2093" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.046;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2090" target="Lu6FpUBILvT6wbpDoRC8-2092">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2093" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.062;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2090" target="Lu6FpUBILvT6wbpDoRC8-2092">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Lu6FpUBILvT6wbpDoRC8-2090" value="Traffic Manager (DNS)" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Traffic_Manager_Profiles.svg;" vertex="1" parent="1">
-          <mxGeometry x="160" y="210" width="60" height="60" as="geometry" />
+          <mxGeometry x="190" y="215" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Lu6FpUBILvT6wbpDoRC8-2095" value="/api/update_info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2092" target="Lu6FpUBILvT6wbpDoRC8-2100">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="599" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2092" value="API Management Gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="320" y="210" width="65" height="60" as="geometry" />
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2102" value="/api/dose_given" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.016;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2092" target="Lu6FpUBILvT6wbpDoRC8-2103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2097" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2100" target="Lu6FpUBILvT6wbpDoRC8-2096">
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2092" value="API Management Gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="340" y="215" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2097" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.074;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2100" target="Lu6FpUBILvT6wbpDoRC8-2096">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="179.98000000000002" as="sourcePoint" />
+            <mxPoint x="740" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lu6FpUBILvT6wbpDoRC8-2099" value="writes to Info Collection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2096" target="Lu6FpUBILvT6wbpDoRC8-2098">
+          <mxGeometry x="-0.2895" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2096" value="Cosmos Write Function App" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="740" y="141" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2111" value="Read Replica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2098" target="Lu6FpUBILvT6wbpDoRC8-2110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2096" value="Function App" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
-          <mxGeometry x="750" y="137" width="68" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Lu6FpUBILvT6wbpDoRC8-2098" value="Cosmos DB" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
-          <mxGeometry x="950" y="270" width="64" height="64" as="geometry" />
+          <mxGeometry x="990" y="310.4" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.955;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2100" target="Lu6FpUBILvT6wbpDoRC8-2108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="171" />
+              <mxPoint x="680" y="440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Lu6FpUBILvT6wbpDoRC8-2100" value="Event Hub" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Event_Hub_Clusters.svg;" vertex="1" parent="1">
-          <mxGeometry x="570" y="145" width="64" height="52" as="geometry" />
+          <mxGeometry x="600" y="145" width="64" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2101" value="&lt;div&gt;{&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;pain_level&quot;: 1,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&quot;current_dose&quot;: 4.5,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&quot;time&quot;: &quot;2023-04-10T13:45:00.000Z&quot;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2101" value="&lt;div&gt;{&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;pain_level&quot;: 6,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&quot;current_dose&quot;: 4.5,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&quot;time&quot;: &quot;2023-04-10T13:45:00.000Z&quot;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="120" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.493;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2103" target="Lu6FpUBILvT6wbpDoRC8-2104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2103" target="Lu6FpUBILvT6wbpDoRC8-2108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2103" value="Event Hub" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Event_Hub_Clusters.svg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="316.4" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2104" target="Lu6FpUBILvT6wbpDoRC8-2098">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2107" value="writes to Dose Collection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Lu6FpUBILvT6wbpDoRC8-2106">
+          <mxGeometry x="0.2857" y="3" relative="1" as="geometry">
+            <mxPoint x="-27" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2104" value="Cosmos Write Function App" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="730" y="312.4" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.775;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2108" target="Lu6FpUBILvT6wbpDoRC8-2098">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="474" />
+              <mxPoint x="930" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2113" value="Predictive Data and Insights Collection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Lu6FpUBILvT6wbpDoRC8-2112">
+          <mxGeometry x="-0.3237" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2108" value="Data Bricks" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="62.8" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2117" value="Trigger Func App" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2110">
+          <mxGeometry x="0.0667" y="-12" relative="1" as="geometry">
+            <mxPoint x="840" y="602" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2121" value="Pulls Historical Reports" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2110" target="Lu6FpUBILvT6wbpDoRC8-2120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="602" />
+              <mxPoint x="1110" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2110" value="Read-Only Cosmos DB" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
+          <mxGeometry x="990" y="570" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2116" target="Lu6FpUBILvT6wbpDoRC8-2092">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="600" />
+              <mxPoint x="450" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2119" value="Processed Data with Suggested Dose Returned to Mobile App" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Lu6FpUBILvT6wbpDoRC8-2118">
+          <mxGeometry x="-0.375" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2116" value="Suggested Dose Func App" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="770" y="570" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2120" target="Lu6FpUBILvT6wbpDoRC8-2092">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2123" value="/api/reports" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Lu6FpUBILvT6wbpDoRC8-2122">
+          <mxGeometry x="-0.2491" y="2" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2120" value="Reports Func App" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="720" width="68" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
