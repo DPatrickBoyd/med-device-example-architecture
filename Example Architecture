@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T03:45:01.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1kCVOaZ7YjT-1oEyoRFK" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T04:19:39.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="I4F9c80OCA3deDoG92r5" version="21.2.1" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2060" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -28,10 +28,35 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lu6FpUBILvT6wbpDoRC8-2090" value="Traffic Manager (DNS)" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Traffic_Manager_Profiles.svg;" vertex="1" parent="1">
-          <mxGeometry x="205" y="210" width="60" height="60" as="geometry" />
+          <mxGeometry x="160" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2095" value="/api/update_info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2092" target="Lu6FpUBILvT6wbpDoRC8-2100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Lu6FpUBILvT6wbpDoRC8-2092" value="API Management Gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="360" y="210" width="65" height="60" as="geometry" />
+          <mxGeometry x="320" y="210" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2097" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2100" target="Lu6FpUBILvT6wbpDoRC8-2096">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="179.98000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2099" value="writes to Info Collection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lu6FpUBILvT6wbpDoRC8-2096" target="Lu6FpUBILvT6wbpDoRC8-2098">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2096" value="Function App" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="750" y="137" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2098" value="Cosmos DB" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
+          <mxGeometry x="950" y="270" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2100" value="Event Hub" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Event_Hub_Clusters.svg;" vertex="1" parent="1">
+          <mxGeometry x="570" y="145" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu6FpUBILvT6wbpDoRC8-2101" value="&lt;div&gt;{&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;pain_level&quot;: 1,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&quot;current_dose&quot;: 4.5,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&quot;time&quot;: &quot;2023-04-10T13:45:00.000Z&quot;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
